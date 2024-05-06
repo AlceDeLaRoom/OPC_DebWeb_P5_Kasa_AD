@@ -1,0 +1,12 @@
+main{
+    max-width: 1240px ;
+    min-width: 325px ;
+    width: 90%;
+    margin: auto;
+    padding: 0 5%;
+    flex: 1;
+    @media(max-width: $mobile){
+        max-width: 420px;
+        padding: 0;
+    }
+}
