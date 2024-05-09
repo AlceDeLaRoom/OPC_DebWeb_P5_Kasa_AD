@@ -21,6 +21,7 @@ body {
 
 .tags {
   display: flex;
+  flex-wrap: wrap;
 }
 .tags__element {
   min-width: 95px;

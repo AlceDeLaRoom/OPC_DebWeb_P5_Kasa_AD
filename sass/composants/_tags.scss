@@ -1,5 +1,6 @@
 .tags {
 	display: flex;
+    flex-wrap: wrap;
 	&__element {
         min-width: 95px;
         height: 25px;

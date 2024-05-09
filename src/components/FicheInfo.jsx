@@ -30,7 +30,7 @@ function FicheInfo({content, list = false}) {
             <div className="ficheInfo__title" onClick={handleClick}>
                 <p>{title}</p>
                 <img src={arrowUp} alt="flèche pour afficher ou cacher les infos"
-                style={{transform: open ? 'rotate(-180deg)' : 'rotate(0deg)'}}
+                    style={{transform: open ? 'rotate(-180deg)' : 'rotate(0deg)'}}
                 />
             </div>
                 <div className={classContent}>
