@@ -30,4 +30,7 @@
         color: white;
         margin: 0;
     }
+    @media (max-width: $mobile){
+        aspect-ratio: 1.3;
+    }
 }

@@ -8,7 +8,7 @@ function FicheInfo({content, list = false}) {
         if (list){
             return(
                 <ul>
-                    {description.map((elem)=>(<li>{elem}</li>))}
+                    {description.map((elem, index)=>(<li key={`${elem}${index}`}>{elem}</li>))}
                 </ul>
             )
         }
